@@ -70,7 +70,9 @@ font-weight: bold;
     z-index: -1;
     opacity: .8;
     }
-    
+.main{
+align-items: center;
+} 
     
     .name{
     /*font-family: serif;*/
