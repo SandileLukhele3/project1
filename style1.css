@@ -55,7 +55,7 @@ font-weight: bold;
     #home{
     display: flex;
     flex-direction: column;
-    height: 695px;
+    height: 700px;
     justify-content: center;
     background: rgba(0,0,0,.6);
     }
