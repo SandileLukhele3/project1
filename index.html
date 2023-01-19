@@ -2,29 +2,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
 <title>
 CV website
 </title>
 </head>
 <body>
-<header>
-<nav class="navbar">
-<div class="image">
-<img src="images/n@me5.png">
-</div>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">Contact</a></li>
-</ul>
+<header>  
+<nav>
+<div class="navbar">
+   <div class="logo">
+   <img src="images/n@me5.png">
+   </div>
+    
+    <ul class="navlist">
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#services">Services</a></li>
+       <li><a href="#project">Projects</a></li>
+       <li><a href="#contact">Contact</a></li>
+     </ul>
+     <div onclick="showMenu()" id="burgers">
+       <div class="line1"></div>
+       <div class="line2"></div>
+       <div class="line3"></div>
+     </div>
+     
+</div>   
+
 </nav>
 </header>
 <section id="home">
 <div class="main">
-<h1 class="name">I <span class="am">AM</span> <br> SANDILE LUKHELE</h1>
+<h1 class="name">I <span class="am">AM</span> <br> MR S. LUKHELE</h1>
 <button class="btn">Hire Me</button>
 </div>
 </section>
@@ -40,7 +50,7 @@ CV website
   <h1 class="about_title">ABOUT <span class="deco">ME </span></h1>
   <h3 class="subhead">Network Administrator and fullstack developer</h3>
   <P class="para">I am a passionate ICT officer. jhbvgihbi uhuhouihoiuhououvoiuoio iuiuhiuhiuhiuh iuuhoioiuhojbbjblknlknI  jhbkjbkjbk kjkjkjbkjbk ddf srdfdjhjhkjk kjkjkjkjkjkjkjkkjkjkkkkkk kkjkjkjkjkjkjkjkkjkjkjkjkjkjkjkjkjkjkjk kjkjkjnkjnbkjbk kjbkjbkjbkjbkjbkjbk kjbkjkjbkjbkjbkjbkjbkjbkjbkjb kjbkjbkjbkjbkjb kjbkjbkjbkjbkjbam.kkjkjkjkjkjkjkjkkjkjkjkjkjkjkjkjkjkjkjk kjkjkjnkjnbkjbk kjkjbkjbkjbkjbkjbkjbkjbkjb kjbkjbkjbkjbkjb kjbkjbkjbkjbkjbam.kkjkjkjkjkjkjkjkkjkjkjkjkjkjkjkjkjkjkjk kjkjkjnkjnbkjbk kjkjbkjbkjbkjbkjbkjbkjbkjb kjbkjbkjbkjbkjb kjbkjbkjbkjbkjbam.kkjkjkjkjkjkjkjkkjkjkjkjkjkjkjkjkjkjkjk kjkjkjnkjnbkjbk kjkjbkjbkjbkjbkjbkjbkjbkjb kjbkjbkjbkjbkjb kjbkjbkjbkjbkjbam.kkjkjkjkjkjkjkjkkjkjkjkjkjkjkjkjkjkjkjk kjkjkjnkjnbkjbk   </P>
-  <a href="#" class="btn">Download Cv</a>
+  <a href="#" class="btn" onclick="location.href='SandileCv.pdf';">Download Cv</a>
   </div>
 </div>
 </section>
@@ -131,14 +141,14 @@ CV website
      <h3 class="or">Or</h3>
    </div>
    <div class="iconz">
-      <img src="icons/twitter.png">
-      <img src="icons/facebook.png">
-      <img src="icons/instagram.png">
-      <img src="icons/linkedln.png">
+      <a target="_blank"><img src="icons/twitter.png"></a>
+      <a href="https://www.facebok.comhttps://www.facebook.com/profile.php?id=100082117232784&mibextid=ZbWKwL" target="_blank"><img src="icons/facebook.png"></a>
+      <a target="_blank"><img src="icons/instagram.png"></a>
+      <a target="_blank"><img src="icons/linkedln.png"></a>
     </div>
 </div>
 <div class="textme_col">
-   <form action="" class="form">
+   <form action="https://formsubmit.co/sandilelukhele3@gmail.com" class="form">
    <input type="text" name="name" placeholder="Enter your name" class="input">
    <input type="email" name="email" placeholder="Enter your email" class="input">
    <textarea name="msg" cols="30" rows="10" id="msg" class="text" placeholder="Enter your message"></textarea>
@@ -153,5 +163,7 @@ CV website
 <p class="para">Designed by Mr Lukhele</p>
 </footer>
 </section>
+
+
 </body>
 </html>
