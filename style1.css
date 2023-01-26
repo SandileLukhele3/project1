@@ -57,7 +57,7 @@ font-weight: bold;
     #home{
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 550px;
     justify-content: center;
     background: rgba(0,0,0,.6);
     }
@@ -66,7 +66,7 @@ font-weight: bold;
     position: absolute;
     top: 0;
     left: 0;
-    height: 350px;
+    height: 550px;
     width: 100%;
     background: url(images/im@ge1.png) no-repeat center center/cover ;
     z-index: -1;
@@ -345,6 +345,12 @@ margin-top: 30%;
    .navlist li {
    font-size: 10px;     
     }
+    #home{
+    height: 350px;    
+    }
+    #home::before{
+     height: 350px;
+     }
     .main{
     align-items: center;
     margin-left: 12%;
