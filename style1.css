@@ -17,7 +17,6 @@ width: 100%;
 }
 .navbar img{
 width: 110px;
-
 }
 
 .navlist{
@@ -37,7 +36,7 @@ font-size: 12px;
 font-weight: bold;
 }
 
-    .navbar ul li a{
+ .navbar ul li a{
     text-decoration: none;
     color: white;
     padding: 8px 10px;
@@ -73,9 +72,8 @@ font-weight: bold;
     opacity: .8;
     }
 .main{
-margin-left:auto;
-margin-right: auto;
-margin-top: 30%;
+margin-left: 10%;
+margin-top: 20%;
 } 
     
     .name{
@@ -345,6 +343,19 @@ margin-top: 30%;
    .navlist li {
    font-size: 10px;     
     }
+    .main{
+     margin-left: 10%;
+     margin-top: 20%;
+     }
+        .btn{
+        padding: 5px 12px;
+        }
+        #home .btn{
+        margin-left: 5%;
+        }
+        .name{
+        font-size: 15px;
+        }
     #home{
     height: 350px;    
     }
