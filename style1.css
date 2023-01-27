@@ -59,8 +59,8 @@ font-weight: bold;
     height: 1000px;
     justify-content: center;
     background: rgba(0,0,0,.6);
-     margin-bottom: 10px;
     }
+
     #home::before{
     content: '';
     position: absolute;
@@ -213,7 +213,7 @@ margin-top: 30%;
     }
     #project h1{
     text-align: center; 
-    margin-top: 100px;
+    margin-top: 110px;
     
     }
     #project p{
