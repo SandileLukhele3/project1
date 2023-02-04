@@ -372,9 +372,9 @@ margin-top: 30%;
     align_items: center;
     }
     #about .about_right_column .btn {
-    margin-left: 46%;
+    margin-left: 40%;
     padding: 10px 12px;
-    font-size: 8px;
+    font-size: 10px;
     }
     #about .about_right_column .about_title{
     text-align: center;
