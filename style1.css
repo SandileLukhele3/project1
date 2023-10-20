@@ -51,7 +51,7 @@ font-weight: bold;
     transition: .5s;
     }
     .navbar ul li:hover::after{
-    width: 100%; 
+    width: 50%; 
     }
     #home{
     display: flex;
