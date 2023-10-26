@@ -22,7 +22,7 @@ width: 110px;
 .navbar ul{
 display: flex;
 list-style: none;
-margin: 20px auto;
+flex: 1;
 text-align: right;
 }
 .navbar ul li{
