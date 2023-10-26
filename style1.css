@@ -43,12 +43,12 @@ font-weight: bold;
     }
     .navbar ul li::after{
     content: '';
-    width: 0%;
+    width: 100%;
     height: 3px;
     background: #351710;
     display: block;
     margin: auto;
-    transition: .5s;
+    
     }
     .navbar ul li:hover::after{
     width: 50%; 
