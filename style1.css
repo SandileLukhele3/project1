@@ -48,7 +48,7 @@ transition: .5s;
 }
 .navbar ul li:hover::after{
    width: 50%; 
-   margin-top: 10px;
+   margin-top: 12px;
 }
     #home{
     display: flex;
