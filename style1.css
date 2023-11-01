@@ -22,8 +22,8 @@ width: 110px;
 display: flex;
 list-style: none;
 text-align: right;
-margin: 0 60%;
-flex: 1;    
+margin: 0 40%;
+  
 }
 .navbar ul li{
 font-family: sans-serif;
