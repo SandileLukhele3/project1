@@ -22,6 +22,7 @@ width: 110px;
 display: flex;
 list-style: none;
 text-align: right;
+margin: 0 25px;
 flex: 1;    
 }
 .navbar ul li{
