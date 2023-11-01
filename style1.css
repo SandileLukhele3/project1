@@ -22,7 +22,7 @@ width: 110px;
 display: flex;
 list-style: none;
 text-align: right;
-margin: auto 30%;
+margin: 0 60%;
 flex: 1;    
 }
 .navbar ul li{
