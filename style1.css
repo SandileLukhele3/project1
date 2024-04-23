@@ -410,10 +410,7 @@ margin-top: 30%;
     margin-top: 10px;
     flex-basis: 100%;
     }
-    .navlist{
-    width: 30%;
-    }
-    /*
+        
     .navbar ul{
     position: absolute;
     background: #f44336;
@@ -428,6 +425,6 @@ margin-top: 30%;
     .navbar ul li{
     display: block;
     }
-    */
+    
     }
     /*End of small device section*/
