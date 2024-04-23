@@ -339,7 +339,7 @@ margin-top: 30%;
     width: 65%;
     }
    .navlist li {
-   font-size: 8px;     
+   font-size: 6px;     
     }
     .project_col .para{
     color: #fff;
@@ -411,7 +411,7 @@ margin-top: 30%;
     flex-basis: 100%;
     }
         
-    .navbar ul{
+    /*.navbar ul{
     position: absolute;
     background: #f44336;
     height: 190vh;
@@ -426,7 +426,7 @@ margin-top: 30%;
     color: #fff;
     z-index: 3;
     display: block;
-    }
+    }*/
     
     }
     /*End of small device section*/
