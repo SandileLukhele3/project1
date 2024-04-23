@@ -330,16 +330,16 @@ margin-top: 30%;
     
     @media(max-width: 700px){
     .image img{
-    width: 60px;
+    width: 40px;
     }
     .navbar{
      min-height: 4vh;   
      }
     .navlist {
-    width: 75%;
+    width: 85%;
     }
    .navbar ul li {
-   font-size: 7px;     
+   font-size: 10px;     
     }
     .project_col .para{
     color: #fff;
