@@ -329,14 +329,14 @@ margin-top: 30%;
     /*small device section*/
     
     @media(max-width: 700px){
-    .image img{
-    width: 40px;
+    .logo img{
+    width: 60px;
     }
     .navbar{
      min-height: 4vh;   
      }
     .navlist {
-    width: 85%;
+    width: 65%;
     }
    .navbar ul li {
    font-size: 10px;     
