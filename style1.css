@@ -423,6 +423,7 @@ margin-top: 30%;
     }
     
     .navbar ul li{
+    color: #fff;
     z-index: 3;
     display: block;
     }
