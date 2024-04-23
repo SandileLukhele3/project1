@@ -411,7 +411,7 @@ margin-top: 30%;
     flex-basis: 100%;
     }
         
-    /*.navbar ul{
+    .navbar ul{
     position: absolute;
     background: #f44336;
     height: 190vh;
@@ -420,9 +420,10 @@ margin-top: 30%;
     right: 0;
     text-align: center;
     z-index: 2;
-    }*/
+    }
     
     .navbar ul li{
+    z-index: 3;
     display: block;
     }
     
