@@ -335,11 +335,11 @@ margin-top: 30%;
     .navbar{
      min-height: 4vh;   
      }
-    .navbar ul {
+    .navlist {
     width: 75%;
     }
    .navbar ul li {
-   font-size: 10px;     
+   font-size: 7px;     
     }
     .project_col .para{
     color: #fff;
