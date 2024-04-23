@@ -330,16 +330,19 @@ margin-top: 30%;
     
     @media(max-width: 700px){
     .image img{
-    width: 80px;
+    width: 60px;
     }
     .navbar{
      min-height: 4vh;   
      }
     .navlist{
-    width: 30%;
+    width: 65%;
     }
    .navlist li {
    font-size: 8px;     
+    }
+    .project_col .para{
+    color: #fff;
     }
     .main{
      margin-left: 10%;
