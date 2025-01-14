@@ -65,6 +65,35 @@ width: 110px;
     text-align: center;
   }
 }
+/*Rolling Image section */
+.image-container {
+
+width: 100%;
+height: 280px;
+overflow: hidden;
+
+}
+
+img {
+
+width: 100%;
+
+height: inherit;
+
+object-fit: cover;
+
+}
+
+img.active {
+opacity: 1;
+transition: opacity 1s ease-in-out;
+}
+ @media screen and (max-width: 600px){
+img{
+width: 100%;
+} 
+ }
+/*End of Rolling Image section */
 </style>    
 </head>
 <body>
@@ -78,6 +107,12 @@ width: 110px;
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+</div>
+<div class="image-container">
+
+<img id="slidingImage" src="fix3.png" alt="Image 1">
+<img id="slidingImage" src="fix5.png" alt="Image 2">
+<img id="slidingImage" src="fix2.png" alt="Image 3">
 </div>
 </header>
 <section id="home">
@@ -221,6 +256,26 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+// List of image sources
+
+const images = ['fix3.png', 'fix5.png', 'fix2.png','fix6.png'];
+
+let currentIndex = 0;
+
+// Function to change the image every 5 seconds
+
+function changeImage() {
+
+currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+
+document.getElementById('slidingImage').src = images[currentIndex];
+
+}
+
+// Set interval to change the image every 3 seconds (3000ms)
+
+setInterval(changeImage, 3000);
 </script>
 </body>
 </html>
