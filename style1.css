@@ -140,12 +140,13 @@ margin-top: 30%;
     line-height: 1.2rem;
     font-weight: 150;
     color: #777;
+    text-align: justify'
     }
     #about .about_right_column .btn{
     text-decoration: none;
     margin-top: 25%;
     margin-left: 0;
-    
+    text-align:justify;
     }
     .subhead{
     font-family: sans-serif;
