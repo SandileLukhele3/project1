@@ -144,7 +144,8 @@ margin-top: 30%;
     }
     #about .about_right_column .btn{
     text-decoration: none;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align:justify;
     }
     .subhead{
