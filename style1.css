@@ -180,6 +180,7 @@ margin-top: 30%;
     }
     #Services p{
     margin-top: 0;
+    text-align: center;
     }
     .Services_container{
     display: flex;
