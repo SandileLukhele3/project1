@@ -246,7 +246,7 @@ margin-top: 30%;
     
     /*Contact Section*/
     #contact{
-    width: 60%;
+    width: 80%;
     text-align: center;
     margin: auto;
     }
@@ -406,11 +406,12 @@ margin-top: 30%;
     height: 10px;
     align-items:center;
     flex-direction: row;
-    padding: 20px 50%;
+    padding: 20px 115px;
     
     flex-basis: 100%;
     }
     .textme_col{
+    padding: 20px 50px;
     margin-top: 10px;
     flex-basis: 100%;
     }
