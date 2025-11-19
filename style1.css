@@ -290,8 +290,12 @@ margin-top: 30%;
     align-items: center;
     }
     .input{
+    border-bottom:1px solid #351710;
     margin-bottom: 5px;
-    border: none;
+    border-left:none;
+    border-right:none;
+    border-top:none;
+    background-color: transparent;
     outline: none;
     text-align: center;
     padding: 3px;
@@ -316,6 +320,7 @@ margin-top: 30%;
     }
     .call{
     margin-top: 55px;
+    width: 30px;
     }
     .iconz img{
     width: 30px;
