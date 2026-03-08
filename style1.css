@@ -415,9 +415,9 @@ margin-top: 30%;
     
     align-items:center;
     
-    witdh:80vw;
+    witdh:80%;
     position: relative;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%);
     }
     .textme_col{
