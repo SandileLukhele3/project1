@@ -408,12 +408,13 @@ margin-top: 30%;
     flex-direction: row;
     }
     .contact_col{
-    height: 10px;
-    align-items:center;
-    flex-direction: row;
-    padding: 20px 80px;
     
-    flex-basis: 100%;
+    align-items:center;
+    
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     }
     .textme_col{
     padding: 20px 50px;
