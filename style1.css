@@ -415,7 +415,7 @@ margin-top: 30%;
     
     align-items:center;
     
-    flex: 0 0 80vw;
+    witdh:80vw;
     position: relative;
     left: 50%;
     transform: translate(-50%);
