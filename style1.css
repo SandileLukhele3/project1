@@ -407,11 +407,15 @@ margin-top: 30%;
     .iconz{
     flex-direction: row;
     }
+    .contact_container{
+      display:flex;
+      flex-wrap: wrap;
+    }
     .contact_col{
     
     align-items:center;
     
-    width: 80%;
+    flex: 0 0 80vw;
     position: relative;
     left: 50%;
     transform: translate(-50%);
